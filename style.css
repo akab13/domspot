@@ -1,6 +1,6 @@
  body {
       font-family: 'Tahoma', sans-serif;
-      background: url('https://img.freepik.com/premium-photo/humanoid-cyborg-robot_864601-87.jpg') no-repeat center center;
+      background: url('https://th.bing.com/th/id/R.67ea56d8a3c7e78e59dcd85971817513?rik=UlljpzdNEu25Ag&riu=http%3a%2f%2fthargelion.se%2fwp-content%2fuploads%2f2019%2f02%2fhumanoid.jpg&ehk=t%2fMmYXILBX1Su4IZzyu9vGF%2bb3MBOOhZ0l8RZ%2byIYs0%3d&risl=&pid=ImgRaw&r=0') no-repeat center center;
       background-size: cover;
       background-attachment: scroll;
       direction: rtl;
@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 768px) {
   body {
-    background: url('https://img.freepik.com/premium-photo/humanoid-cyborg-robot_864601-87.jpg') no-repeat top center;
+    background: url('https://th.bing.com/th/id/R.67ea56d8a3c7e78e59dcd85971817513?rik=UlljpzdNEu25Ag&riu=http%3a%2f%2fthargelion.se%2fwp-content%2fuploads%2f2019%2f02%2fhumanoid.jpg&ehk=t%2fMmYXILBX1Su4IZzyu9vGF%2bb3MBOOhZ0l8RZ%2byIYs0%3d&risl=&pid=ImgRaw&r=0') no-repeat top center;
     background-size: contain;
     background-attachment: scroll;
     background-color: #000; /* لتغطية أي فراغ */
