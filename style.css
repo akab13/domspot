@@ -1,7 +1,8 @@
  body {
       font-family: 'Tahoma', sans-serif;
-      background: url('https://wallup.net/wp-content/uploads/2016/05/15/258818-robot-androids-digital_art-CGI-science_fiction-black_background.jpg') no-repeat center center fixed;
+      background: url('https://wallup.net/wp-content/uploads/2016/05/15/258818-robot-androids-digital_art-CGI-science_fiction-black_background.jpg') no-repeat center center;
       background-size: cover;
+      background-attachment: scroll;
       direction: rtl;
       text-align: center;
       padding: 20px;
