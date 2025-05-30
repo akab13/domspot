@@ -23,6 +23,7 @@ html, body {
   border-radius: 8px;
   width: 80%;
   max-width: 600px;
+  border: 1.5px solid #00ffff;
   box-shadow: 0 0 3px rgba(0, 255, 255, 0.01);
   backdrop-filter: blur(2px);
   font-size: 0.55rem;
@@ -131,4 +132,10 @@ footer a {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
+}
+
+header h1,
+header p {
+  color: #00ffff;
+  text-shadow: 2px 2px 8px #000;
 }
