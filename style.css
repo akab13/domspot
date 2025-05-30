@@ -15,30 +15,43 @@ html, body {
   height: 100%;
   overflow-x: hidden;
 }
-/* نصوص */
+
+
 h1, h2, p, ul li {
   color: white;
   text-shadow: 2px 2px 8px #000;
-  animation: fadeInText 1.5s ease-in-out both;
+  animation: fadeInText 1.5s ease-in-out both, fadeOut 1s ease-in-out 5s forwards;
   font-weight: bold;
   transform: perspective(800px) rotateX(2deg);
 }
 
+/* تصغير حجم الخط */
 h1 {
-  font-size: 3rem;
-  margin-top: 40px;
+  font-size: 2rem;
+  margin-top: 20px;
 }
 
 h2 {
-  font-size: 2rem;
-  margin-top: 30px;
+  font-size: 1.4rem;
+  margin-top: 20px;
 }
 
 p, ul li {
-  font-size: 1.2rem;
-  line-height: 1.7;
-  margin: 15px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 10px 0;
 }
+
+/* أنيميشن للإخفاء بعد 5 ثواني */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
 /* الكروت */
 .container {
   display: flex;
