@@ -12,6 +12,11 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  height: 100%;
+  overflow-x: center;
+}
+
 /* نصوص */
 h1, h2, p, ul li {
   color: white;
@@ -121,21 +126,5 @@ footer a {
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
-  }
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .card {
-    width: 90%;
   }
 }
