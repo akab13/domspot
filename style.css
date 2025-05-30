@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-
 body {
-  font-family: 'Cairo', sans-serif;
-  background: url('https://th.bing.com/th/id/R.67ea56d8a3c7e78e59dcd85971817513?rik=UlljpzdNEu25Ag&riu=http%3a%2f%2fthargelion.se%2fwp-content%2fuploads%2f2019%2f02%2fhumanoid.jpg&ehk=t%2fMmYXILBX1Su4IZzyu9vGF%2bb3MBOOhZ0l8RZ%2byIYs0%3d&risl=&pid=ImgRaw&r=0') no-repeat center center fixed;
+  font-family: 'Tahoma', sans-serif;
+  background: url('https://th.bing.com/th/id/R.67ea56d8a3c7e78e59dcd85971817513?rik=UlljpzdNEu25Ag&riu=http%3a%2f%2fthargelion.se%2fwp-content%2fuploads%2f2019%2f02%2fhumanoid.jpg&ehk=t%2fMmYXILBX1Su4IZzyu9vGF%2bb3MBOOhZ0l8RZ%2byIYs0%3d&risl=&pid=ImgRaw&r=0') no-repeat center center;
   background-size: cover;
-  color: #fff;
-  direction: rtl;
+  background-color: #000;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  direction: rtl;
   text-align: center;
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 html, body {
   height: 100%;
-  overflow-x: center;
+  overflow-x: hidden;
 }
-
 /* نصوص */
 h1, h2, p, ul li {
   color: white;
