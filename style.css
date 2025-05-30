@@ -17,7 +17,7 @@ html, body {
 }
 
 
-h1, h2, p, ul li {
+.disappear {
   color: white;
   text-shadow: 2px 2px 8px #000;
   animation: fadeInText 1.5s ease-in-out both, fadeOut 1s ease-in-out 5s forwards;
@@ -26,17 +26,17 @@ h1, h2, p, ul li {
 }
 
 /* تصغير حجم الخط */
-h1 {
+.disappear {
   font-size: 2rem;
   margin-top: 20px;
 }
 
-h2 {
+.disappear {
   font-size: 1.4rem;
   margin-top: 20px;
 }
 
-p, ul li {
+.disappear{
   font-size: 0.95rem;
   line-height: 1.5;
   margin: 10px 0;
