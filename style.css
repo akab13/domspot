@@ -43,7 +43,7 @@ html, body {
 }
 
 /* أنيميشن للإخفاء بعد 5 ثواني */
-@keyframes fadeOut {
+@keyframes fadeOut .disappear {
   from {
     opacity: 1;
   }
